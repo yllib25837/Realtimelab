@@ -1,14 +1,48 @@
 PROCESSOR REFERENCE MANUAL
+Page 155 HSI and PLL configuration
+Page 161 RCC registers
+Page 163 RCC PLL configuration register
 Page 180 RCCAHB1 Peripheral clock register (e.g GPIOD, GPIOA)
+Page 382 limited number of external interrupt request lines
+Page 268 Genegral purpose GPIO - intialisation
+Page 273 section 8.3.2 of the processor reference manual that SPI1 corresponds to alternate function 5
+Page 275 I/O port control and data rergisters
 Page 281 GPIO MODER input/output set up
+Page 281 MODER registers 
 Page 283 GPIO input data register(IDR)
-Page 283 GPIO BSRR
-
+Page 284 GPIO BSRR
+Page 284 GPIO ODR
+Page 371 Nested vectored interrupt controller
+Page 578 General purpose timers
+Page 581 Timer counting modes
 Page 613 for Timers(2-5) control register 1 TIM_CR1
 Page 619 for Timer status register TIM_SR
+Page 859 SPI info
+Page 860 SPI main features
+Page 868 SPI master mode
+Page 903 SPI and I2C registers
+• Section 28.2 describes the main features of the SPI interface.
+• Section 28.3.1 describes the operation of the pins
+• Section 28.3.3 provides the information required to setup the SPI interface in master mode
+• Section 28.5 describes the registers associated with the SPI interface.
 
 USER MANUAL
+Page 14 timings for the SPI interfaces
 Page 16 Push button/LED ports
+Page 17 LDSH info
+Page 21 Info on how discovery board is connectwed to microcontroller
+Page 22 Entries on connections (LIS302DL or LIS3DSH column) SPC, SDO, SDI
+Page 30 Entries on connections (LIS302DL or LIS3DSH column) GPIOE PE0, PE1 and PE3
+
+LDSH data sheet
+Page 11 Pin descriptions and functions
+Page 24 SPI bus interface 
+Page 29 (section 7) LDSH register mapping
+Page 32 (Section 8) LDSH register descriptions (who am I)
+
+
+
+STM data sheet
 
 
 RELEVANT HEADER FILE
